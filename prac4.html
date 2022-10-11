@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body bgcolor="greenyellow">
+ <form>
+    <p>Please fill in this form to register yourself with us.</p>
+    <hr>
+  <table>
+   <tr>
+    <td><b>Name :</b></td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td><b>Password</b> :</td>
+    <td><input type="password"></td>
+   </tr>
+   
+   <tr>
+    <td><b>Gender</b> :</td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+    </td>
+   </tr>
+   <tr>
+   <td><b>D.O.B  :     </b></td>
+   <td> <input type="text" placeholder="Enter date of birth" name="D.O.B" id="dob" ></td>
+</tr>
+   
+   
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select>
+      <option>91</option>
+      <option>60</option>
+      <option>64</option>
+      <option>1</option>
+      <option>86</option>
+      <option>81</option>
+     </select>
+     <input type="phone">
+    </td>
+   </tr>
+   <tr>
+    <td>ADDRESS <br /><br /><br /></td>
+    <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+    </tr>
+   <p>By regestring yourself with us you agree to our <a href="#">Terms & Privacy</a>.</p>
+   
+   <tr>
+    <td>CITY</td>
+    <td><input type="text" name="City" maxlength="30" />
+    (max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+     
+    <!----- Pin Code ---------------------------------------------------------->
+    <tr>
+    <td>PIN CODE</td>
+    <td><input type="text" name="Pin_Code" maxlength="6" />
+    (6 digit number)
+    </td>
+    </tr>
+     
+    <!----- State ---------------------------------------------------------->
+    <tr>
+    <td>STATE</td>
+    <td><input type="text" name="State" maxlength="30" />
+    (max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+     
+    <!----- Country ---------------------------------------------------------->
+    <tr>
+    <td>COUNTRY</td>
+    <td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+    </tr>
+     
+    <!----- Hobbies ---------------------------------------------------------->
+     
+    <tr>
+    <td>HOBBIES <br /><br /><br /></td>
+     
+    <td>
+    Drawing
+    <input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+    Singing
+    <input type="checkbox" name="Hobby_Singing" value="Singing" />
+    Dancing
+    <input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+    Sketching
+    <input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+    <br />
+    Others
+    <input type="checkbox" name="Hobby_Other" value="Other">
+    <input type="text" name="Other_Hobby" maxlength="30" />
+    </td>
+    </tr>
+     
+    <!----- Qualification---------------------------------------------------------->
+    <tr>
+    <td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+     
+    <td>
+    <table>
+     
+    <tr>
+    <td align="center"><b>Sl.No.</b></td>
+    <td align="center"><b>Examination</b></td>
+    <td align="center"><b>Board</b></td>
+    <td align="center"><b>Percentage</b></td>
+    <td align="center"><b>Year of Passing</b></td>
+    </tr>
+     
+    <tr>
+    <td>1</td>
+    <td>Class X</td>
+    <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+    <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+    <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+    </tr>
+     
+    <tr>
+    <td>2</td>
+    <td>Class XII</td>
+    <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+    <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+    <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+    </tr>
+     
+    <tr>
+    <td>3</td>
+    <td>Graduation</td>
+    <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+    <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+    <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+    </tr>
+     
+    <tr>
+    <td>4</td>
+    <td>Masters</td>
+    <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+    <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+    <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+    </tr>
+     
+    <tr>
+    <td></td>
+    <td></td>
+    <td align="center">(10 char max)</td>
+    <td align="center">(upto 2 decimal)</td>
+    </tr>
+    </table>
+     
+    </td>
+    </tr>
+     
+    <!----- Course ---------------------------------------------------------->
+    <tr>
+    <td>COURSES<br />APPLIED FOR</td>
+    <td>
+    B.TECH
+    <input type="radio" name="Course_B.TECH" value="B.TECH">
+    BCA
+    <input type="radio" name="Course_BCA" value="BCA">
+    B.Sc
+    <input type="radio" name="Course_BSc" value="B.Sc">
+    B.COM
+    <input type="radio" name="Course_B.COM" value="B.COM">
+    </td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Submit"></td>
+       </tr>
+  </table>
+ </form>
+</body>
+</html>
